@@ -1,5 +1,8 @@
 package modelo
 
 data class dataClassMusica(
-    val nombreCancion: String
+    val uuid: String,
+    val nombreCancion: String,
+    val duracion: Int,
+    val Autor: String
 )
